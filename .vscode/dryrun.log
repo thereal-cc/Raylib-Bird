@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/carson/Desktop/Programming/C Programming/Raylib-Bird'
+make Game
+ 
+make[1]: Entering directory `/Users/carson/Desktop/Programming/C Programming/Raylib-Bird'
+clang++ -o Game src/main.cpp src/player.cpp src/rock.cpp -Wall -std=c++20 -D_DEFAULT_SOURCE -Wno-missing-braces -s -O1 -I. -I../../src -I../../src/external -L. -L../../src -L../../src -lraylib -framework OpenGL -framework Cocoa -framework IOKit -framework CoreAudio -framework CoreVideo  -DPLATFORM_DESKTOP
+make[1]: Leaving directory `/Users/carson/Desktop/Programming/C Programming/Raylib-Bird'
+make: Leaving directory `/Users/carson/Desktop/Programming/C Programming/Raylib-Bird'
+ 

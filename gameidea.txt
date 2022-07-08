@@ -1,0 +1,7 @@
+Game Idea:
+Kill Two Birds With One Stone
+Control One Stone which can bounce off walls and hits birds
+
+Game Name:
+One Bird, Two Stones (V1)
+Two Birds, One Stone (V2)
